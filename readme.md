@@ -7,9 +7,8 @@ Antes de prosseguir com a instalação, verifique se o seu sistema atende aos se
 
     Linux ou macOS
 
-Passos de Instalação
+Abra o terminal e clone o repositório do AXYZ SCAN para o seu sistema. Execute o seguinte comando:
 
-    Abra o terminal e clone o repositório do AXYZ SCAN para o seu sistema. Execute o seguinte comando:
     git clone https://github.com/seu-usuario/axyz-scan.git
 
 Navegue até o diretório recém-clonado usando o comando cd:
