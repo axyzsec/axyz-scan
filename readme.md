@@ -17,7 +17,7 @@ Navegue até o diretório recém-clonado usando o comando cd:
 
 Garanta que o script axyz-scan.sh tenha permissões de execução. Você pode fazer isso com o comando chmod:
 
-    chmod +x axyz-scan.sh
+    chmod +x axyztool.sh
 
 Agora você pode executar o script usando o seguinte comando:
 
