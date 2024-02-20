@@ -37,11 +37,4 @@ AXYZ SCAN - Red Team tool
 Desenvolvido por axyzsec e N E S Group
 
 https://discord.gg/tn76Wx9HBk
-https://discord.gg/tn76Wx9HBk
-https://discord.gg/tn76Wx9HBk
-https://discord.gg/tn76Wx9HBk
-https://discord.gg/tn76Wx9HBk
-https://discord.gg/tn76Wx9HBk
-https://discord.gg/tn76Wx9HBk
-
 siga @axyzsec nas redes sociais
