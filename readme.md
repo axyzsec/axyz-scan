@@ -6,7 +6,6 @@ Requisitos
 Antes de prosseguir com a instalação, verifique se o seu sistema atende aos seguintes requisitos:
 
     Linux ou macOS
-    Bash (Shell)
 
 Passos de Instalação
 
