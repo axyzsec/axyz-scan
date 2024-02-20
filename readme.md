@@ -9,26 +9,20 @@ Antes de prosseguir com a instalação, verifique se o seu sistema atende aos se
 
 Passos de Instalação
 
-    Clone o Repositório:
-
     Abra o terminal e clone o repositório do AXYZ SCAN para o seu sistema. Execute o seguinte comando:
-
-
-git clone https://github.com/seu-usuario/axyz-scan.git
-
-Acesse o Diretório:
+    git clone https://github.com/seu-usuario/axyz-scan.git
 
 Navegue até o diretório recém-clonado usando o comando cd:
 
-cd axyz-scan
+    cd axyz-scan
 
 Garanta que o script axyz-scan.sh tenha permissões de execução. Você pode fazer isso com o comando chmod:
 
-chmod +x axyz-scan.sh
+    chmod +x axyz-scan.sh
 
 Agora você pode executar o script usando o seguinte comando:
 
-./axyz-scan.sh 
+    ./axyz-scan.sh 
 
 
 
