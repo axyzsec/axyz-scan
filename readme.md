@@ -21,7 +21,7 @@ Garanta que o script axyz-scan.sh tenha permissões de execução. Você pode fa
 
 Agora você pode executar o script usando o seguinte comando:
 
-    ./axyz-scan.sh 
+    ./axyztool.sh 
 
 
 
