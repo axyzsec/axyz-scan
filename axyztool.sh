@@ -45,7 +45,7 @@ verificar_xss() {
 # Função principal do programa
 main() {
     clear
-    echo " ________     ___    ___ ___    ___ ________          ________  ________  ________  ________      "
+    echo "________     ___    ___ ___    ___ ________          ________  ________  ________  ________      "
     echo "|\   __  \   |\  \  /  /|\  \  /  /|\_____  \        |\   ____\|\   ____\|\   __  \|\   ___  \    "
     echo "\ \  \|\  \  \ \  \/  / | \  \/  / /\|___/  /|       \ \  \___|\ \  \___|\ \  \|\  \ \  \\ \  \   "
     echo " \ \   __  \  \ \    / / \ \    / /     /  / /        \ \_____  \ \  \    \ \   __  \ \  \\ \  \  "
@@ -54,12 +54,12 @@ main() {
     echo "    \|__|\|__/__/ /\ __\\___/ /        \|_______|       |\_________\|_______|\|__|\|__|\|__| \|__| "
     echo "             |__|/ \|__\|___|/                          \|_________|                              "
     echo "                     \______/                                                         "
-    echo "===================================================="
+    echo "                                                                                          "
     echo "AXYZ SCAN - Red Team tool"
     echo "Desenvolvido por axyzsec e N E S Group"
-    
+    echo "===================================================="
+    echo "                                                                                          "
     while true; do
-        echo -e "\nMenu:"
         echo "1. Fazer scan de sublinks"
         echo "2. Verificar vulnerabilidades de XSS"
         echo "3. Abrir Discord"
@@ -94,6 +94,25 @@ main() {
                 echo -e "\nOpção inválida. Por favor, escolha uma opção válida."
                 ;;
         esac
+        
+        read -p "Pressione Enter para voltar ao menu ou digite 'sair' para encerrar o programa: " continuar
+        if [[ "$continuar" == "sair" ]]; then
+            echo -e "\nEncerrando o programa. Siga @axyzsec no instagram e outras redes sociais!"
+            exit 0
+        fi
+        clear
+        echo " ________     ___    ___ ___    ___ ________          ________  ________  ________  ________      "
+        echo "|\   __  \   |\  \  /  /|\  \  /  /|\_____  \        |\   ____\|\   ____\|\   __  \|\   ___  \    "
+        echo "\ \  \|\  \  \ \  \/  / | \  \/  / /\|___/  /|       \ \  \___|\ \  \___|\ \  \|\  \ \  \\ \  \   "
+        echo " \ \   __  \  \ \    / / \ \    / /     /  / /        \ \_____  \ \  \    \ \   __  \ \  \\ \  \  "
+        echo "  \ \  \ \  \  /     \/   \/  /  /     /  /_/__        \|____|\  \ \  \____\ \  \ \  \ \  \\ \  \ "
+        echo "   \ \__\ \__\/  /\   \ __/  / /      |\________\        ____\_\  \ \_______\ \__\ \__\ \__\\ \__\ "
+        echo "    \|__|\|__/__/ /\ __\\___/ /        \|_______|       |\_________\|_______|\|__|\|__|\|__| \|__| "
+        echo "             |__|/ \|__\|___|/                          \|_________|                              "
+        echo "                     \______/                                                         "
+        echo "===================================================="
+        echo "AXYZ SCAN - Red Team tool"
+        echo "Desenvolvido por axyzsec e N E S Group"
     done
 }
 
