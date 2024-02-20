@@ -9,7 +9,7 @@ Antes de prosseguir com a instalação, verifique se o seu sistema atende aos se
 
 Abra o terminal e clone o repositório do AXYZ SCAN para o seu sistema. Execute o seguinte comando:
 
-    git clone https://github.com/seu-usuario/axyz-scan.git
+    git clone https://github.com/axyzsec/axyz-scan
 
 Navegue até o diretório recém-clonado usando o comando cd:
 
